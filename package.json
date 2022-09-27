@@ -1,0 +1,22 @@
+{
+  "name": "exam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pave228/Exam4semak.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pave228/Exam4semak/issues"
+  },
+  "homepage": "https://github.com/pave228/Exam4semak#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
