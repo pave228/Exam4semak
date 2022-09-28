@@ -75,13 +75,14 @@
             <label>Введите текст</label><br>
             <input type="text" name="textName" id="text_id" class="inputC" required /><br><br>
             <input id="SendButton" type="submit">
-            <button type="button" id="CloseButton">Закрыть</button>
+            <!-- <button type="button" id="CloseButton">Закрыть</button> -->
         </form>
     </div>
     <div class="tableC">
         <table id="table">
             <tr>
                 <th>Список</th>
+                <td id="td_id">gogogo</td>
             </tr>
         </table>
     </div>
@@ -112,6 +113,10 @@
             let text = row.insertCell(0);
             text.innerHTML = document.getElementById("text_id").value;
         }
+        document.getElementById("table").onclick = function () {
+            document.getElementById("td_id").style.bgcolor = 'red';
+        }
+
     </script>
 </body>
 
